@@ -79,18 +79,7 @@ form.addEventListener('submit', function (e){
     else{
         showSuccess(confirm_password);
     }
-    if(username.value!=='' && email.value!=='' && age.value!== '' 
-     && salary.value!== '' && password.value!== '' && confirm_password.value!== ''){
-        showSuccess(username);
-        showSuccess(email);
-        showSuccess(age);
-        showSuccess(salary);
-        showSuccess(password);
-        showSuccess(confirm_password);
-
-        alert('Register successfully');
-        
-    }
+   
     
 });
 
